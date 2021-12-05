@@ -1,0 +1,56 @@
+
+body {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Dungeon;
+    src: url(./assets/Ghostz-77qw.ttf)
+}
+
+h1 {
+    font-family: Dungeon;
+    color: black;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: Dungeon;
+    font-size:  14px;
+    color: white;
+}
+
+img {
+    border: 1px solid white;
+    border-radius: 20px; 
+}
+.attributes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.attributes li {
+    font-family: Dungeon;
+    font-weight: bold;
+    color white;
+
+}
+
+.attributes span {
+    color: yellow;
+}
+
+#key {
+    color: red;
+}
+
+.backstory {
+    width: 50%;
+    margin:0 25% 0 25%;
+    text-align: left;
+    font-family: Dungeon;
+    font-size: 11px;
+}
